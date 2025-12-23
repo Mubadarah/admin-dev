@@ -1,0 +1,1 @@
+import{aD as t,aE as a,aF as e}from"./index-D30dUQcz.js";const o=s=>t.get({url:"/tasks",params:e(s),headers:{"ngrok-skip-browser-warning":"true"}}),n=s=>t.get({url:a("/tasks/:id",{id:s})}),i=s=>t.post({url:"/tasks",data:s}),p=(s,r)=>t.put({url:a("/tasks/:id",{id:s}),data:r}),u=s=>t.delete({url:a("/tasks/:id",{id:s})}),l={get:o,show:n,create:i,update:p,destroy:u};export{l as a};
